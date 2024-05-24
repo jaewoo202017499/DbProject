@@ -47,4 +47,6 @@ dependencies {
     androidTestImplementation(libs.androidx.espresso.core)
 
     implementation("com.naver.maps:map-sdk:3.18.0")// 네이버 지도 SDK
+    implementation("com.google.android.gms:play-services-location:21.0.1") // 위치 반환을 위해 FusedLocationSource
+
 }
