@@ -49,4 +49,7 @@ dependencies {
     implementation("com.naver.maps:map-sdk:3.18.0")// 네이버 지도 SDK
     implementation("com.google.android.gms:play-services-location:21.0.1") // 위치 반환을 위해 FusedLocationSource
 
+    implementation ("com.squareup.retrofit2:retrofit:2.9.0") // retrofit2
+    implementation ("com.squareup.retrofit2:converter-gson:2.9.0") // retrofit2
+
 }
